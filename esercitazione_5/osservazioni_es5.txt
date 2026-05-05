@@ -1,0 +1,5 @@
+OSSERVAZIONI ESERCITAZIONE 5 PCS
+
+Durante l'esercitazione abbiamo scoperto che gli algoritmi quadratici sono più rapidi per i vettori di dimensione più piccola, nel nostro caso osservando i risultati in modalità Release, abbiamo notato che fino al vettore di dimensione n=88 l'algoritmo di insertion-sort è il più efficiente. Una volta superata questa soglia notiamo che gli algoritmi logaritmici e, in particolare, il quick-sort, prendono il sopravvento. Perciò abbiamo modificato il codice del quick-sort imponendo di usare il metodo più rapido (dunque l'insertion-sort) fino alla dimensione soglia e poi utilizzare il quick-sort standard.
+
+In questa esercitazione abbiamo inoltre provato ad utilizzare sia la modalità Debug che Release notando che in modalità Release i tempi di esecuzione si riducono drasticamente.
